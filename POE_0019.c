@@ -17,7 +17,6 @@ byte ip[] = { 192, 168, 1, 177 };                     //device's ip
 byte server[] = { 192, 168, 1, 153};                 // server ip
 EthernetClient client;                                //Creates the variable that communicates with the server
 
-/*  SETUP*/
 void setup() {
   Serial.begin(230400);
   pinMode(ADS_CS, OUTPUT);
